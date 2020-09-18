@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+body #slider {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+body #slider section {
+  position: absolute;
+}
+
+body #slider section div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+body #slider .next,
+body #slider .prev {
+  position: absolute;
+  top: 50%;
+  z-index: 50;
+  cursor: pointer;
+}
+
+body #slider .next {
+  right: 5%;
+}
+
+body #slider .prev {
+  left: 5%;
+}
+/*# sourceMappingURL=style.css.map */

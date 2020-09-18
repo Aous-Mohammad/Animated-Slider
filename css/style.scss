@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    #slider {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        section {
+            position: absolute;
+            div {
+                img {
+                    object-fit: cover;
+                    width: 100vw;
+                    height: 100vh;
+                }
+            }
+        }
+        .next,
+        .prev {
+            position: absolute;
+            top: 50%;
+            z-index: 50;
+            cursor: pointer;
+        }
+        .next {
+            right: 5%;
+        }
+        .prev {
+            left: 5%;
+        }
+    }
+}
